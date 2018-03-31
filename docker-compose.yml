@@ -1,0 +1,22 @@
+version: '2'
+volumes:
+  eccube_data:
+    driver: local
+services:
+  # EC-CUBE
+  eccube:
+    build: ./
+    volumes:
+      - "./src:/var/www/"
+    ports:
+      - "80:80"
+  eccube_postgres:
+    image: eccube/postgres:9.6
+    volumes:
+      - eccube_data:/var/lib/postgresql
+    environment:
+      POSTGRES_PASSWORD: passwd
+      POSTGRES_USER: eccube_dbuser
+      POSTGRES_DB: eccube_db
+
+
