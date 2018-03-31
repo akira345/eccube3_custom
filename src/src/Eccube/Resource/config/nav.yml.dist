@@ -119,6 +119,13 @@
             - id: masterdata
               name: マスターデータ管理
               url: admin_setting_system_masterdata
+      - id: powerfull
+        name: 俺の考えた最強の設定
+        has_child: true
+        child:
+          - id: powerfull_settings
+            name: 最強の設定画面
+            url: admin_setting_powerfull_powerful_powerfull_settings
 - id: store
   name: オーナーズストア
   has_child: true

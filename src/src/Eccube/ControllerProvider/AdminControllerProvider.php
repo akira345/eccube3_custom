@@ -210,6 +210,9 @@ class AdminControllerProvider implements ControllerProviderInterface
         $c->match('/setting/system/masterdata/{entity}/edit', '\Eccube\Controller\Admin\Setting\System\MasterdataController::index')->bind('admin_setting_system_masterdata_view');
         $c->match('/setting/system/masterdata/edit', '\Eccube\Controller\Admin\Setting\System\MasterdataController::edit')->bind('admin_setting_system_masterdata_edit');
 
+        // powerfull/powerfull_settings
+        $c->match('/setting/powerfull/powerfull_settings','\Eccube\Controller\Admin\Setting\Powerfull\PowerfullController::index')->bind('admin_setting_powerfull_powerful_powerfull_settings');
+
         // store
         $c->match('/store/template', '\Eccube\Controller\Admin\Store\TemplateController::index')->bind('admin_store_template');
         $c->match('/store/template/install', '\Eccube\Controller\Admin\Store\TemplateController::add')->bind('admin_store_template_install');
