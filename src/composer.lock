@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af98124cf4b7cec648749ee9458755e0",
+    "content-hash": "8f8305ee08578a7e63b3c9c06c01d1a7",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -659,12 +659,12 @@
             "version": "v2.4.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "5aedac1e5c5caaeac14798822c70325dc242d467"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/5aedac1e5c5caaeac14798822c70325dc242d467",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/5aedac1e5c5caaeac14798822c70325dc242d467",
                 "reference": "5aedac1e5c5caaeac14798822c70325dc242d467",
                 "shasum": ""
             },
@@ -979,21 +979,21 @@
         },
         {
             "name": "knplabs/console-service-provider",
-            "version": "v1.0",
+            "version": "1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/KnpLabs/ConsoleServiceProvider.git",
-                "reference": "1f1a3315409814d01702a47a8823549c6996de41"
+                "reference": "7a839206270755483f6a06a6cfb3308fa6f9c562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/KnpLabs/ConsoleServiceProvider/zipball/1f1a3315409814d01702a47a8823549c6996de41",
-                "reference": "1f1a3315409814d01702a47a8823549c6996de41",
+                "url": "https://api.github.com/repos/KnpLabs/ConsoleServiceProvider/zipball/7a839206270755483f6a06a6cfb3308fa6f9c562",
+                "reference": "7a839206270755483f6a06a6cfb3308fa6f9c562",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2",
-                "symfony/console": "~2.1"
+                "symfony/console": "~2.3|~3.0"
             },
             "type": "library",
             "autoload": {
@@ -1007,7 +1007,7 @@
             ],
             "authors": [
                 {
-                    "name": "KnpLabs",
+                    "name": "Knplabs",
                     "homepage": "http://knplabs.com"
                 }
             ],
@@ -1017,7 +1017,7 @@
                 "console",
                 "silex"
             ],
-            "time": "2013-06-13T12:43:39+00:00"
+            "time": "2016-02-01T15:38:27+00:00"
         },
         {
             "name": "knplabs/knp-components",
@@ -1525,6 +1525,7 @@
                 "silex",
                 "webprofiler"
             ],
+            "abandoned": true,
             "time": "2016-07-04T18:40:58+00:00"
         },
         {
@@ -1602,6 +1603,7 @@
             "keywords": [
                 "microframework"
             ],
+            "abandoned": "symfony/flex",
             "time": "2017-04-30T16:26:54+00:00"
         },
         {
@@ -1647,6 +1649,7 @@
             ],
             "description": "A WebProfiler for Silex",
             "homepage": "http://silex.sensiolabs.org/",
+            "abandoned": true,
             "time": "2016-01-10T11:39:13+00:00"
         },
         {
@@ -3724,12 +3727,12 @@
             "version": "2.10.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/djoos/Symfony2-coding-standard.git",
+                "url": "https://github.com/djoos/Symfony-coding-standard.git",
                 "reference": "fdf8de2c4de016abb5ea6b6015f80c47f1f6301b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/djoos/Symfony2-coding-standard/zipball/fdf8de2c4de016abb5ea6b6015f80c47f1f6301b",
+                "url": "https://api.github.com/repos/djoos/Symfony-coding-standard/zipball/fdf8de2c4de016abb5ea6b6015f80c47f1f6301b",
                 "reference": "fdf8de2c4de016abb5ea6b6015f80c47f1f6301b",
                 "shasum": ""
             },
@@ -4501,6 +4504,7 @@
                 "mock",
                 "xunit"
             ],
+            "abandoned": true,
             "time": "2015-10-02T06:51:40+00:00"
         },
         {
@@ -4559,6 +4563,7 @@
                 "github",
                 "test"
             ],
+            "abandoned": "php-coveralls/php-coveralls",
             "time": "2016-01-20T17:35:46+00:00"
         },
         {
